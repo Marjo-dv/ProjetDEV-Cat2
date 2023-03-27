@@ -44,7 +44,9 @@ useEffect(() => {
           <p><span>Caractère :</span> {cat.breeds[0].temperament}</p>
           <p><span>Description :</span> {cat.breeds[0].description}</p>
         </div> 
+        
         {/*<pre>{JSON.stringify(cat)}</pre>}*/}
+        
       
       </div>
       <div className='tab-cat'>
